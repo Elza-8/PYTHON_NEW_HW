@@ -38,3 +38,5 @@ for letter in word:
     print(letter, cost_list[letter])
     total_cost += cost_list[letter]
 print(f'Общая стоимость в слове {total_cost}')
+
+# print(f'Общая стоимость в слове {sum(cost_list[letter] for letter in word)}')
