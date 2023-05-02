@@ -23,7 +23,7 @@ for i in nums:
     if diff_current < min_diff:
         min_diff = diff_current
 
-res = min([i for i in nums if abs(i-x) == min_diff]) 
+res = min([i for i in nums if abs(i-x) == min_diff])
 print(f'Result is {res}')
 
 # print(f'Result is {min(nums, key=lambda y: abs(y-x))}')
