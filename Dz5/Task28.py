@@ -13,10 +13,7 @@ def sum(a, b):
         return b
     elif b == 0:
         return a
-    elif a > b:
-        return sum(a - 1, b) + 1
-    else:
-        return sum(a, b - 1) + 1
+    return sum(a + 1, b - 1)
 
 
 first = int(input('Введите число A: '))
